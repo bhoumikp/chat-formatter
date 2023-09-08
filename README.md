@@ -1,8 +1,8 @@
 
 # Chat Template Formatter
 
-The format_to_chat utility function takes a text and converts it into a structured chat template using specific handlebars tags. It identifies {{gen ..}} commands
-and wrap each of them in seperate {{#assistant}...{{/assistant}} tag, Then it wraps the remainig text in the {{#user}}...{{/user}} tag.
+The format_to_chat utility function takes a text and converts it into a structured chat template using specific handlebars tags. 
+It identifies {{gen ..}} commands and wrap each of them in seperate {{#assistant}...{{/assistant}} tag, Then it wraps the remainig text in the {{#user}}...{{/user}} tag.
 
 
 ## Test Cases
