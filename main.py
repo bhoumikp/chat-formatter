@@ -8,7 +8,7 @@ def format_to_chat(input_text):
     assistant_text = ""
 
     for gen_command in gen_commands_found:
-        command = ''.join(gen_command).replace('n', 'n ')
+        command = ''.join(gen_command).replace('{{gen', '{{gen ')
 
         user_text = user_text.replace(command, "")
 
