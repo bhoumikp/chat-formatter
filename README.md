@@ -25,4 +25,22 @@ It identifies {{gen ..}} commands and wrap each of them in seperate {{#assistant
   {{#user}}Tweak this proverb to apply to model instructions instead. Where there is no guidance{{/user}} {{#assistant}}{{gen 'rewrite'}}{{/assistant}} {{#assistant}}{{gen 'write'}}{{/assistant}}
 ```
 
+```
+  Test Case #3:
+  Input: 
+  Today we going to a trip{{gen write}}
+  
+  Output:
+  {{#user}}Today we going to a trip{{/user}} {{#assistant}}{{gen write}}{{/assistant}}
+```
+
+```
+  Testcase #4:
+  Input: 
+  You should go to walk. It is healthy{{gen recommend}}
+  
+  Output:
+  {{#user}}You should go to walk. It is healthy{{/user}} {{#assistant}}{{gen recommend}}{{/assistant}}
+```
+
 
